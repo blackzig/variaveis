@@ -5,7 +5,7 @@
  */
 package br.com.cursojavanow.variaveis;
 
-import br.com.cursojavanow.variaveis.classes.CursoByte;
+import br.com.cursojavanow.variaveis.view.Principal;
 
 /**
  *
@@ -14,7 +14,11 @@ import br.com.cursojavanow.variaveis.classes.CursoByte;
 public class Start {
 
     public static void main(String[] args) {
-        CursoByte.transformaByteToDoublePrimitivo();
+        Principal p = new Principal();
+        p.setVisible(true);
+        //String s = new String();
+        //System.out.println("s : " + s);
+        //  CursoByte.byteToValueOfParameterStringERadix​();
     }
 
 }
